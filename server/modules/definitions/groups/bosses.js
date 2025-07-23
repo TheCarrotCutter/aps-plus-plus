@@ -47,6 +47,7 @@ Class.eliteDestroyer = {
         ...weaponArray({
             POSITION: [11, 0, 0, 60, 360, 0],
             TYPE: "crasherSpawner",
+            MAX_CHILDREN: 10,
         }, 3),
         {
             POSITION: [11, 0, 0, 0, 360, 1],
